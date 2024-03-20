@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load render_table from django_tables2 %}
+
+{% block title %}  Actualizar  {% endblock %}
+{% block subtitle %} Firestore {% endblock %}
+
+{% block main %}
+<div class="well">
+  Actualizar información de Firestore
+</div>
+
+<h2>Importar</h2>
+
+<p>
+<ul>
+  {% for item in firedata %}
+<li>{{ item }} </li>
+
+{% endfor %}
+</ul>
+</p>
+
+
+<h2>Exportar</h2>
+<p>
+<ul>
+  {% for item in projects %}
+<li>{{ item.title }} </li>
+
+{% endfor %}
+</ul>
+</p>
+
+  <form method="POST" action="/firestore/update"enctype="multipart/form-data">{% csrf_token %}
+ <button type="submit" name="update" class="btn btn-success">Aceptar</button>
+  </form>
+
+{% endblock %}
