@@ -1,4 +1,4 @@
-# Webservice of App Ecotrace
+# Webservice of Ecotrace App
 Source code of Ecotrace App
 PAPIIT TA101321 PROJECT
 
