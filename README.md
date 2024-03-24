@@ -1,3 +1,6 @@
-# Webservice de la App Ecotrace
-Código fuente de la App Ecotrace
-PROYECTO PAPIIT TA101321
+# Webservice of App Ecotrace
+Source code of Ecotrace App
+PAPIIT TA101321 PROJECT
+
+# Acknowledgements
+This work was supported by the Universidad Nacional Autónoma de México grant DGAPA-PAPIIT TA101321
